@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>會員註冊</title>
+</head>
+<body>
+<form action="get.php"method="get">
+<h1>會員註冊</h1><br>
+<strong>帳號:</strong><input type="text" class="form-control" placeholder="@Account" aria-describedby="basic-addon1"><br>
+<strong>密碼:</strong><input type="password" class="form-control" placeholder="@Password" aria-describedby="basic-addon1"><br>
+<strong>密碼確認:</strong><input type="password" class="form-control" placeholder="@Check Password" aria-describedby="basic-addon1"><br>
+<strong>姓名:</strong><input type="text" class="form-control" placeholder="@Your Name" aria-describedby="basic-addon1"><br>
+<strong>性別:</strong><input type="radio" name="Fruit" value="Apple">男<input type="radio" name="Fruit" value="apple">女<br>
+<strong>電話:</strong><input type="text" class="form-control" placeholder="@Phone Number" aria-describedby="basic-addon1"><br>
+<strong>地址:</strong><input type="text" class="form-control" placeholder="@Address" aria-describedby="basic-addon1"><br>
+<strong>電子郵件:</strong><input type="text" class="form-control" placeholder="@E-mail" aria-describedby="basic-addon1"><br>
+<p><input type='submit' value='註冊'>   <input type='submit' value='重填'></p>
+</body>
+
+</html>
